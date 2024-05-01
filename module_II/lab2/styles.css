@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+  color: rgb(73, 72, 72);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(73, 72, 72);
+}
+
+.container {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(234, 243, 247, 0.486);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 2px 8px 3px rgb(199, 197, 197);
+}
+
+.label {
+  width: 200px;
+  margin: 6px 0px 1px 0px;
+  padding: 0;
+}
+
+.text-field {
+  width: 250px;
+  height: 25px;
+  margin: 2px 20px;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: white;
+}
+
+.btnSave {
+  width: 200px;
+  height: 35px;
+  margin: 20px;
+  padding: 3px;
+  border-radius: 8px;
+  background-color: rgb(66, 151, 221);
+  border: 1px solid rgb(66, 151, 221);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 10px;
+  color: rgb(73, 72, 72);
+}
+
+.text-field:hover {
+  border: 1px solid rgb(66, 151, 221);
+}
