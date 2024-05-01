@@ -1,0 +1,45 @@
+/* general colors var */
+:root {
+    --background-principal-tone: white;
+    --principal-light-tone: #163e64;
+    --principal-tone: #1b416b;
+    --dark-tone: #1a1a2e;
+}
+
+/* ==================================================== */
+
+/* Styles for the web application */
+
+/* background color the body */
+.bg-principal-tone-modify {
+    background-color: var(--background-principal-tone);
+}
+
+/* Navbar color */
+.principal-tone-modify {
+    background-color: var(--principal-tone);
+}
+
+/* footer color */
+.dark-tone-modify {
+    background-color: var(--dark-tone);
+}
+
+/* width of input field*/
+.input-width-modify {
+    width: 350px;
+}
+
+/* Font size 0.9rem*/
+.fs-min9-modify {
+    font-size: 0.9rem;
+}
+/* Font size 0.7rem*/
+.fs-min7-modify {
+    font-size: 0.7rem;
+}
+
+/* Modify of image when change de width */
+.mt-5-modify {
+    margin-top: 3rem;
+}
