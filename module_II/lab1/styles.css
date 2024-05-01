@@ -1,0 +1,148 @@
+/* Type font: 1 pirata */
+
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+.playfair-display-400 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ============================================== */
+
+/* Styles general */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles the head */
+
+#img-onepiece {
+  height: 260px;
+}
+
+/* Styles the body - header */
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  color: white;
+  padding: 5px;
+  background-color: #4384a0;
+}
+
+/* Styles the body - body */
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-introduction {
+  width: 600px;
+  display: flex;
+}
+
+.text-introduction p {
+  text-align: center;
+  padding: 25px;
+}
+
+.card {
+  width: 350px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #7465505d;
+  border-radius: 20px;
+  background-color: #cdb5905d;
+  box-shadow: 1px 2px 7px 2px #7465505d;
+}
+
+h3 {
+  font-size: 23px;
+  font-family: "Pirata One", system-ui;
+}
+
+.img-wanted {
+  margin-top: 10px;
+  width: 175px;
+  height: 250px;
+}
+
+.text-card {
+  margin: 10px 0px;
+  padding: 5px;
+  border: 2px solid #aa916a;
+  border-radius: 20px;
+  background-color: #b69871;
+  box-shadow: 1px 2px 7px 2px #aa916a;
+}
+
+/* Styles the body - footer */
+
+footer {
+  display: flex;
+  font-size: larger;
+  color: #181e20;
+  margin-top: 20px;
+  background-color: #4384a0;
+  text-align: left;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boat {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boat img {
+  width: 70px;
+  height: 70px;
+}
+
+#text-footer-create {
+  text-align: right;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+/* Media querie */
+
+@media screen and (max-width: 500px) {
+  #img-onepiece {
+    height: 156px;
+  }
+}
