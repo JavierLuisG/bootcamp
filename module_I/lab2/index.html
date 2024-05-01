@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | Activity 2 - Image Tags</title>
+  </head>
+  <body>
+    <img
+      width="350"
+      height="450"
+      src="https://i.pinimg.com/564x/da/16/31/da163149e1f21dcd42a3c9d9b6f6e69c.jpg"
+      alt="Image of Monkey D. Luffy with his flag"
+    />
+    <figure>
+      <img width="350" height="350" 
+        src="https://i.pinimg.com/564x/fb/e6/85/fbe6855acc0dc01d4a773a39707e1575.jpg"
+        alt="Goku as a child praying to the dragon sphere"
+      />
+      <figcaption>
+        Image depicting Goku praying to the dragon sphere left to him by his grandfather.
+      </figcaption>
+    </figure>
+    <picture>
+      <source media="(min-width: 1920px)" srcset="img/goku_1920.png">
+      <source media="(min-width: 1536px)" srcset="img/goku_1536.png">
+      <source media="(min-width: 412px)" srcset="img/goku_412.png">
+      <img src="img/goku_360.png" alt="Goku child">
+    </picture>
+  </body>
+</html>
