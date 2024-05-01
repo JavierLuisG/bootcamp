@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | Avctivity 4 - Form Tags</title>
+  </head>
+  <body>
+    <form action="/submit-form" method="post">
+        <!-- text label name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Full name" required /><br>
+        <!-- text label email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required /><br>
+        <!-- label text area -->
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+        <!-- radio option gender -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="maleGender" name="maleGender" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="femaleGender" name="femaleGender" value="Female">
+            <label for="female">Female</label><br>
+            
+            <input type="radio" id="otherGender" name="otherGender" value="Other">
+            <label for="other">Other</label>
+        </fieldset>
+        <!-- list option about browser -->
+        <label for="browsers">Your favorite browser:</label><br>
+        <input list="browsers" id="browser" name="browser"><br>
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Opera">
+        </datalist><br>
+        <!-- button submit -->
+        <button type="submit" id="btnSend">Send</button>
+    </form>
+  </body>
+</html>
